@@ -42,7 +42,7 @@ def index():
         db.session.commit()
 
         message_body = f"Thankyou for your submission, {first_name}. " \
-                       f"Here are your data:\n{first_name}{last_name}\n" \
+                       f"Here are your data:\n{first_name} {last_name}\n" \
                        f"you will get confirmation before {date}\n" \
                        f"Thankyou!"
 
